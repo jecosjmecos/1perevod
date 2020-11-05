@@ -36,6 +36,15 @@ $(document).ready(function(){
     slidesToScroll: 1,
   });
 
+  /*Слайдер с примерами*/
+  $('.example-slider').slick({
+    arrows: true,
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+
 
   /*Табы, Цены*/
   $('#priceTabHead a').on('click', function(e){
@@ -56,6 +65,26 @@ $(document).ready(function(){
     $(this).addClass('active');
 
     let subTabLink = $(this).attr('href');
+        subTabLink.toString();
+
+    $('#priceSubTabContent>.price-tab-content_item').removeClass('active');
+    $(subTabLink).addClass('active');
+  });
+
+  $('#priceTabSelect').change(function(e){
+    e.preventDefault();
+
+    let tabLink = $(this).val();
+        tabLink.toString();
+
+    $('#priceTabContent>.price-tab-content_item').removeClass('active');
+    $(tabLink).addClass('active');
+  });
+
+  $('#priceSubTabSelect').change(function(e){
+    e.preventDefault();
+
+    let subTabLink = $(this).val();
         subTabLink.toString();
 
     $('#priceSubTabContent>.price-tab-content_item').removeClass('active');

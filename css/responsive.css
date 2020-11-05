@@ -96,6 +96,22 @@
 	.footer-small-text{
 		font-size: 12px;
 	}
+
+	.page-banner-filter{
+		padding: 50px 0;
+	}
+
+	.text-section-title {
+		font-size: 32px;
+	}
+
+	.text-section{
+		font-size: 18px;
+	}
+
+	.contaicts-office-right{
+		padding: 40px 15px;
+	}
 }
 
 /* md */
@@ -231,6 +247,53 @@
 		margin: 0 auto;
 		text-align: center;
 	}
+
+	.page-banner h1{
+		font-size: 55px;
+	}
+
+	.page-banner-undertitle {
+		font-size: 18px;
+	}
+
+	.text-section-title{
+		font-size: 28px;
+	}
+
+	.text-section-list-item,
+	.mb90{
+		margin-bottom: 30px;
+	}
+
+	.mb90,
+	.mb50,
+	.mb70{
+		margin-bottom: 30px;
+	}
+
+	.section-quote{
+		padding: 40px 30px;
+		font-size: 24px;
+	}
+
+	.contacts-map-two,
+	.contacts-map{
+		height: 400px;
+		margin-bottom: 30px;
+	}
+
+	.contaicts-office{
+		text-align: center;
+	}
+
+	.contaicts-office-right{
+		padding: 0 0 30px;
+	}
+
+	.contacts-text{
+		padding: 0 0 30px;
+	}
+
 }
 
 /* sm */
@@ -253,9 +316,24 @@
 		width: 276px;
 		max-width: 100%;
 	}
+
+	.example-text-after-img {
+	    font-size: 20px;
+	}
+
+	.example-text-after-img div:nth-child(2){
+		padding: 20px 0;
+	}
+
+	.contaicts-office h2{
+		font-size: 30px;
+	}
 }
 
 @media screen and (max-width: 575px) {
+	body{
+		font-size: 16px;
+	}
 	.banner-title{
 		font-size: 24px;
 	}
@@ -353,7 +431,146 @@
 		padding-top: 65px;
 		padding-bottom: 40px;
 	}
+
+	.page-banner h1{
+		font-size: 34px;
+	}
+
+	.page-banner-undertitle {
+	    font-size: 16px;
+	    padding-bottom: 30px;
+	}
+
+	.page-banner .site-button {
+	    width: 240px;
+	    height: 50px;
+	}
+
+	.text-section-title {
+		font-size: 22px;
+	}
+
+	.text-section{
+		font-size: 16px;
+	}
+
+	.text-section-list-item{
+		font-size: 14px;
+	}
+
+	.text-section-list-item>div:first-child{
+		height: 40px;
+		width: 40px;
+		min-width: 40px;
+	}
+
+	.title-after{
+		padding-bottom: 40px;
+	}
+
+	.hard-grey-bg .title-after{
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+
+	section{
+		padding-bottom: 35px;
+	}
+
+	.warranty-quote{
+		margin-bottom: 20px;
+	}
 	
+	.examples-slider{
+		margin-bottom: 80px;
+	}
+
+	.price .mobile-btn{
+		margin-bottom: 30px;
+	}
+
+	.white-block-two .text-section-list-item{
+		margin: 0 auto 25px;
+	}
+
+	.section-quote{
+		font-size: 20px;
+	}
+
+	.section-title-width-wave{
+		font-size: 20px;
+	}
+
+	.section-rectangle{
+		font-size: 18px;
+		padding: 30px 20px 30px;
+		min-height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.seo-text-section{
+		padding-bottom: 50px;
+		text-align: center;
+	}
+
+	.section-rectangle-big>div:first-child{
+		height: auto;
+	}
+
+	.fsz28,
+	.fsz34{
+		font-size: 22px!important;
+	}
+
+	.rectangle-big-block{
+		min-height: auto;
+		font-size: 20px;
+	}
+
+	.example-slider_item img{
+		height: auto;
+		max-height: 300px;
+	}
+
+	.example-slider{
+		margin-bottom: 75px!important;
+	}
+
+	.example-text-after-img {
+		text-align: center;
+	}
+
+	.example-text-after-img div:first-child{
+		padding-top: 0;
+	}
+
+	.example-text-after-img div:last-child .site-button{
+		margin: 0 auto;
+	}
+
+	.section-rectangle-big_text {
+		font-size: 13px;
+	}
+
+	.section-rectangle-big_text h3{
+		font-size: 20px;
+	}
+
+	.contacts-item div:nth-child(2){
+		font-size: 20px;
+	}
+
+	.contacts-item div:nth-child(2){
+		padding: 10px 0;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+
+
 }
 
 
