@@ -5,7 +5,7 @@ body{
 	font-size: 16px;
 	color: #000;
 	line-height: 1.4;
-	padding-left: 50px;
+	padding-left: 260px;
 }
 
 a{
@@ -192,7 +192,7 @@ p{
 
 
 .main-menu .main-menu-visual{
-	display: flex;
+	display: none;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -314,7 +314,7 @@ p{
 	width: 260px;
 	position: fixed;
 	top: 0;
-	left: -210px;
+	left: 0;
 	background: #FF5500;
 	padding: 20px 20px 30px;
 	transition-duration: 0.3s;
@@ -322,7 +322,7 @@ p{
 }
 
 .main-menu:hover .main-menu_menu{
-	left: 50px;
+	left: 0;
 }
 
 .main-menu_menu__logo img{
@@ -377,6 +377,7 @@ p{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .banner-filter{
@@ -453,7 +454,7 @@ p{
 	border-radius: 5px;
 	border: 1px solid #FF5500;
 	background: #fff;
-	font-size: 28px;
+	font-size: 26px;
 	padding: 10px 25px;
 	font-weight: 500;
 }
@@ -526,10 +527,12 @@ p{
 	height: 56px;
 }
 
-.warranty-quote{
-	display: flex;
-	max-width: 960px;
-	margin: 0 auto;
+.warranty-quote {
+    display: flex;
+    max-width: 1110px;
+    padding: 50px 50px;
+    margin: 0 auto 30px;
+    border: 1px solid #ff5500;
 }
 
 .warranty-quote img{
@@ -814,6 +817,10 @@ textarea{
 	border-radius: 4px;
 	margin-bottom: 25px;
 	font-size: 16px;
+}
+
+.banner-form input[type="tel"]{
+	margin-bottom: 7px;
 }
 
 textarea{
@@ -1483,10 +1490,6 @@ footer{
 	text-decoration: none;
 }
 
-.contaicts-office{
-	padding: 45px 0 0;
-}
-
 .contaicts-office h2{
 	text-transform: none;
 	margin-bottom: 45px;
@@ -1495,10 +1498,15 @@ footer{
 .contacts-map{
 	background: #E5E3DF;
 	height: 1225px;
+	padding: 0;
+}
+
+.contacts-map iframe{
+	border: none;
 }
 
 .contaicts-office-right{
-	padding: 90px;
+	padding: 40px 90px 30px;
 	line-height: 1.9em;
 	font-size: 18px;
 }
@@ -1526,6 +1534,11 @@ footer{
 .contacts-map-two{
 	height: 570px;
 	background: #E5E3DF;
+	padding: 0;
+}
+
+.contacts-map-two iframe{
+	border: none;
 }
 
 .price-tab-select{
@@ -1568,4 +1581,52 @@ footer{
 
 .price-sub-tab-select{
 	max-width: 260px;
+}
+
+
+#subTab1 table tr th:nth-child(2){
+	border-right: 1px solid #FF5500;
+}
+
+#subTab1 table tr th:nth-child(3){
+	background: #FF5500;
+	border-right: 1px solid #FF5500;
+}
+
+#subTab1 table tr td:nth-child(2){
+	border-right: 1px solid #FF5500;
+}
+
+#subTab1 table tr td:nth-child(3){
+	background: #FCD7B5;
+	border-right: 1px solid #FF5500;
+}
+
+#subTab1 table tr:last-child td:nth-child(3){
+	border-bottom: 1px solid #FF5500;
+}
+
+
+
+
+#subTab2 table tr th:nth-child(2){
+	border-right: 1px solid #FF5500;
+}
+
+#subTab2 table tr th:nth-child(3){
+	background: #FF5500;
+	border-right: 1px solid #FF5500;
+}
+
+#subTab2 table tr td:nth-child(2){
+	border-right: 1px solid #FF5500;
+}
+
+#subTab2 table tr td:nth-child(3){
+	background: #FCD7B5;
+	border-right: 1px solid #FF5500;
+}
+
+#subTab2 table tr:last-child td:nth-child(3){
+	border-bottom: 1px solid #FF5500;
 }

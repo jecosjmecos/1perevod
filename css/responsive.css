@@ -1,3 +1,20 @@
+@media screen and (max-width: 1500px) {
+	body{
+		padding-left: 50px;
+	}
+	.main-menu .main-menu-visual{
+		display: flex;
+	}
+
+	.main-menu_menu{
+		left: -210px;
+	}
+
+	.main-menu:hover .main-menu_menu{
+		left: 50px;
+	}
+}
+
 
 /* lg */
 @media screen and (max-width: 1200px) {
@@ -479,6 +496,11 @@
 
 	.warranty-quote{
 		margin-bottom: 20px;
+		padding: 30px 15px;
+	}
+
+	.warranty-quote>div:last-child{
+		padding-left: 0;
 	}
 	
 	.examples-slider{
